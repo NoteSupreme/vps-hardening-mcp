@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.NoteSupreme/vps-hardening",
+  "title": "VPS Hardening",
+  "description": "Read-only security checklists: VPS hardening, Docker, secrets, Supabase, Stripe, auth, AI agents.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/NoteSupreme/vps-hardening-mcp",
+  "repository": { "url": "https://github.com/NoteSupreme/vps-hardening-mcp", "source": "github" },
+  "remotes": [
+    { "type": "streamable-http", "url": "https://notesupreme.com/p/vps-hardening?token=nsp_6bmDN1j4mZCnQJCfL0rgDA" }
+  ]
+}
