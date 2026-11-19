@@ -76,7 +76,7 @@ General information compiled from public videos, posts and docs, not professiona
 | **Regular MCP** | you, in any app | 23 plain tools (search, read, write, frontmatter, version history…) for apps that don't support Code Mode yet. |
 | **Read-only MCP** | other people | Publish a Ship and give the link away. Guests get the whole knowledge graph and none of the write tools. **This repo's MCP is one of these.** |
 
-**Built-in RAG, no vector database.** Each note carries a type, a one-line description and tags, and notes link to each other. Your AI keyword-matches the right entry note, then follows the links a few hops, so it reads a small, relevant slice instead of everything. Nothing to embed or re-index, so a note you saved a second ago is already searchable. A short "how this Ship is organized" note tells every AI how to search that Ship.
+**Built-in RAG on Google's Open Knowledge Format ([OKF](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md)), no vector database.** Each note is a markdown file that carries a type, a one-line description and tags, and notes link to each other. Your AI keyword-matches the right entry note, then follows the links a few hops, so it reads a small, relevant slice instead of everything. Nothing to embed or re-index, so a note you saved a second ago is already searchable. A short "how this Ship is organized" note tells every AI how to search that Ship.
 
 **Also in the box:** a desktop workspace with AI chat beside your docs, 30-day version history on every write, import/export of markdown folders, a phone app with voice, and a 3D "2nd Brain" view of your whole account.
 
